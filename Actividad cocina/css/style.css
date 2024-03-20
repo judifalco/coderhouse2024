@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+.enlaces {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.enlaces li{
+    float: left;
+}
+
+.enlaces a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    background-color: #111;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.comentario {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.tablacontacto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo {
+    color: red;
+    font-weight: 800;
+    margin: 25px;
+}
+
+#ingredientes {
+    margin: 50px;
+}
+
+#ingredientes td {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-weight: 400;
+}
